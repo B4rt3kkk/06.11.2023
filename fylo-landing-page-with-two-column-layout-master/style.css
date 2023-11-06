@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.raleway{
+    font-family: 'Raleway', 'sans-sherif';
+}
+.open{
+    font-family: 'Raleway', 'sans-sherif';
+}
+header{
+    max-width: 1440px;
+    margin: 50px auto 50px auto;
+}
+header nav{
+    display: flex;
+}
+.LogoWrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 0 25px 25px 0;
+    font-weight: lighter;
+}
+main{
+    width: 100%;
+}
+.hero{
+    max-width: 1440px;
+    margin: 0 auto 0 auto;
+}
+.heroWrapper{
+    display: flex;
+}
+.heroLeft .heroRight{
+    width: 50%;
+}
+.heroRight img{
+    width: 100%
+}
+.heroLeft{
+    display: flex;
+    align-items: center;
+}
+.heroLeft_wrapper h1{
+    font-size: 3rem;
+}
+.heroLeft_wrapper p{
+    font-size: 1.4rem;
+}
+.heroInput_wrapper input{
+    width: 50%;
+    padding: 10px 15px  10px 15px;
+}
+.heroInput_wrapper a{
+    text-decoration: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    margin-left: 15px;
+    padding: 12px 80px 12px 80px;
+    font-size: .85rem;
+    font-weight: bold;
+}
+.curveWrapper{
+    margin-top: 300px ;
+}
+.curve{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.curve img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    background-color: hsl(240, 75%, 98%);
+}
+.contentWrapper{
+    display: flex;
+    margin: 0 auto 0 auto;
+    max-width: 1440px;
+}
+.contentRight, .contentLeft{
+    width: 50%;
+}
+.contentRight img{
+    width: 100%;
+}
+.contentLeft_wrapper h2{
+    font-size: 2.5rem;
+}
+.contentLeft_wrapper p{
+    width: 75%;
+    font-size: 1rem;
+}
+
+
