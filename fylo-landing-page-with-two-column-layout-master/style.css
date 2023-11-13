@@ -203,8 +203,12 @@ main{
 
 .footer3{
     display: block;
+    padding-left: 20%;
 }
 
+.logo1{
+    filter: brightness(0) invert(1);
+}
 .phone{
     padding-left: 25%;
 }
@@ -222,7 +226,36 @@ main{
     padding-top: 7%;
     padding-left: 15%;
 }
-p:hover{
+.about:hover{
     color: blue;
     text-decoration: none;
+}
+.jobs:hover{
+    color: blue;
+    text-decoration: none;
+}
+.press:hover{
+    color: blue;
+    text-decoration: none;
+}
+.blog:hover{
+    color: blue;
+    text-decoration: none;
+}
+.contact:hover{
+    color: blue;
+    text-decoration: none;
+}
+.terms:hover{
+    color: blue;
+    text-decoration: none;
+}
+.privacy:hover{
+    color: blue;
+    text-decoration: none;
+}
+@media(max-width:375px){
+    .hero h1{
+            
+    }
 }
